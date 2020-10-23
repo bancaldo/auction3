@@ -19,7 +19,7 @@ Launch the main.py file that will create the database:
 ### Import Players
 
 From **Player** menu, choose **import** and import MCCnn.txt file.
-MCC files are available on [bancaldo's blog](www.bancaldo.wordpress.com) and they are Gazzetta compliant.
+MCC files are available on [bancaldo's blog](https://www.bancaldo.wordpress.com) and they are Gazzetta compliant.
 
 ### Create Teams
 
