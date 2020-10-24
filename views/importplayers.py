@@ -55,7 +55,7 @@ class ViewImportPlayers(Gtk.Window):
         response = dialog.run()
         if response == Gtk.ResponseType.OK:
             player_file = dialog.get_filename()
-            with open(player_file) as input_file:
+            with open(player_file, encoding = "ISO-8859-1") as input_file:
                 self.data = [line.strip() for line in input_file if line]
                 GLib.timeout_add(75, self.on_timeout, 1.0)
                 self.length = len(self.data)  # imported MCC file length
